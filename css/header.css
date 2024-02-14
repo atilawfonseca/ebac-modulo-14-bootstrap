@@ -1,0 +1,44 @@
+.navbar {
+    background-color: rgb(232, 232, 232);
+}
+#cabecalho h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+#cabecalho h1 img {
+    width: 50px;
+    
+}
+#cabecalho .offcanvas {
+    background-color: rgb(232, 232, 232);
+}
+#cabecalho .offcanvas-body ul li a {
+    color: var(--cor-logo);
+    background-color: white;
+    font-family: 'Anton', sans-serif;
+    border: 3px solid var(--cor-logo);
+}
+#cabecalho .offcanvas-body ul li a:hover{
+    background-color: var(--cor-logo);
+    color: white;
+}
+#cabecalho .carousel-caption p {
+    font-size: 4em;
+    color: rgb(9, 0, 177);
+    text-align: justify;
+    font-family: 'Anton', sans-serif;
+    
+}
+@media screen and (min-width:760px) {
+    #cabecalho .offcanvas-body ul li a {
+        border: none;
+        background-color: transparent;
+        
+    }
+    #cabecalho .offcanvas-body ul li a:active {
+        text-decoration: underline;
+    }
+    #cabecalho .carousel-caption p {
+        width: 40%;
+    }
+    
+}

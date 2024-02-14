@@ -1,0 +1,23 @@
+#quem-somos, #acessorios {
+    padding-top: 2em;
+    background-color: var(--cor-logo);
+    padding-bottom: 2em;
+}
+#modelos,#contato {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+main section h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 900;
+
+}
+#quem-somos .row .col-md-6 {
+    background-color: var(--cor-bg-barra-superior);
+    padding: 1em;
+    border-radius: 5px;
+    
+}
+#quem-somos .row .col-md-6 p {
+    text-align: justify;
+}
